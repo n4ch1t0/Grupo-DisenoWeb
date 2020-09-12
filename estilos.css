@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    display: flex;
+    height: 100vh;
+}
+.banner-item {
+    flex: 1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: flex-grow 0.2s;
+}
+.banner-item:hover {
+    flex-grow: 10;
+}
+.banner-item:hover .banner-title {
+    transform: rotate(0);
+}
+.banner-item:nth-child(1) {
+    background: url(https://i.pinimg.com/564x/15/29/0b/15290bbc53d23acf89de16f6e8274473.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.banner-item:nth-child(2) {
+    background: url(https://marcianosmx.com/wp-content/uploads/2013/08/minimoo64_fractals_01.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.banner-item:nth-child(3) {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtVdXB7D4VHF2HHX8VUZmd9iXhq4DypwZ3nTUPkPQ4DFFfI2Tm&usqp=CAU);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.banner-item:nth-child(4) {
+    background: url(https://i.pinimg.com/originals/67/54/78/675478c7dcc17f90ffa729387685615a.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.banner-title {
+    margin: 0;
+    transform: rotate(-90deg);
+    transition: transform 0.2s 0.2s;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+}
